@@ -12,6 +12,7 @@
 		E357DE601F0B62FB00E3054D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E357DE5E1F0B62FB00E3054D /* Main.storyboard */; };
 		E357DE621F0B62FB00E3054D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E357DE611F0B62FB00E3054D /* Assets.xcassets */; };
 		E357DE651F0B62FB00E3054D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E357DE631F0B62FB00E3054D /* LaunchScreen.storyboard */; };
+		E357DE6D1F0B63C800E3054D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E357DE6C1F0B63C800E3054D /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E357DE611F0B62FB00E3054D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E357DE641F0B62FB00E3054D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E357DE661F0B62FB00E3054D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E357DE6C1F0B63C800E3054D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E357DE611F0B62FB00E3054D /* Assets.xcassets */,
 				E357DE631F0B62FB00E3054D /* LaunchScreen.storyboard */,
 				E357DE661F0B62FB00E3054D /* Info.plist */,
+				E357DE6C1F0B63C800E3054D /* Settings.bundle */,
 			);
 			path = SettingsTest;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E357DE6D1F0B63C800E3054D /* Settings.bundle in Resources */,
 				E357DE651F0B62FB00E3054D /* LaunchScreen.storyboard in Resources */,
 				E357DE621F0B62FB00E3054D /* Assets.xcassets in Resources */,
 				E357DE601F0B62FB00E3054D /* Main.storyboard in Resources */,
