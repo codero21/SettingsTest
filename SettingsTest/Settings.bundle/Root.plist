@@ -20,7 +20,7 @@
 			<key>Key</key>
 			<string>user_name</string>
 			<key>DefaultValue</key>
-			<string>Paul Woods</string>
+			<string>Rollin Francois</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>
@@ -38,7 +38,7 @@
 			<key>Key</key>
 			<string>user_age</string>
 			<key>DefaultValue</key>
-			<string>28</string>
+			<string>37</string>
 		</dict>
 	</array>
 </dict>

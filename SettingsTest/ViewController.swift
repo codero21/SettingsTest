@@ -18,7 +18,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let userDefaults = UserDefaults()
+        let registrationDictionary: [String: String] = ["user_name": "Rollin Francois", "user_age": "40"]
+        
+        userDefaults.register(defaults: registrationDictionary)
+        userDefaults.synchronize()
+        
+        nameLabel.text = userDefaults.value(forKey: "user_name") as? String
+        ageLabel.text = userDefaults.value(forKey: "user_age") as? String
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
